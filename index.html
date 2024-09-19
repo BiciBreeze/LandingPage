@@ -30,17 +30,17 @@
 
 
 <body>
-<!-- Header NavBar-->
+
 <header class="header">
     <div class="logo">
         <img src="https://i.postimg.cc/3xG9mLc0/logo-bicibreeze.jpg" alt="Logo BiciBreeze" />
     </div>
     <nav>
         <ul class="nav-links">
-            <li><a href="#" id="home">Home</a></li>
-            <li><a href="#" id="about">About</a></li>
+            <li><a href="#home" id="home">Home</a></li>
+            <li><a href="#about" id="about">About</a></li>
             <li><a href="#plans-section" id="plans">Plans</a></li>
-            <li><a href="#" id="contact-us">Contact Us</a></li>
+            <li><a href="#contact-us" id="contact">Contact Us</a></li>
         </ul>
     </nav>
 
@@ -49,13 +49,14 @@
     <div class="overlay" id="mobile-menu">
         <a onclick="closeNav()" class="close" href="#">&times;</a>
         <div class="overlay-content">
-            <a href="#" id="home2">Home</a>
-            <a href="#" id="about2">About</a>
+            <a href="#home" id="home2">Home</a>
+            <a href="#about" id="about2">About</a>
             <a href="#plans-section" id="plans2">Plans</a>
-            <a href="#" id="contact-us2">Contact Us</a>
+            <a href="#contact-us" id="contact2">Contact Us</a>
         </div>
     </div>
 </header>
+
       <!-- Section Home -->
       <div class="home" id="home-section">
         <div class="home-text">
@@ -72,22 +73,12 @@
         </div>
       </div>
 
-  <!-- Section Value Proposition -->
-  <div class="value-proposition" id="value-proposition-section">
-      <h2>Why Choose Us?</h2>
-      <div class="value-cards">
-          <div class="value-card">
-              <h3>For University Students</h3>
-              <p>Affordable and accessible monthly subscription plans.</p>
-              <p>Eco-friendly transportation solution.</p>
-          </div>
-          <div class="value-card">
-              <h3>For Professionals</h3>
-              <p>Flexible hourly or daily rentals.</p>
-              <p>High-quality and comfortable bikes.</p>
-          </div>
+      
+      <div class ="about" id="about-section">
+        <img src='https://i.postimg.cc/PNnfQ5YH/about-2k.png' border='0' alt='about-2k'/>
       </div>
-  </div>
+        
+
 
 <!-- Section Plans -->
 <div class="plans" id="plans-section">
@@ -117,97 +108,71 @@
         </div>
     </div>
 </div>
-<!-- Section Compare Our Plans -->
-<div class="comparison-table" id="compare-plans-section">
-    <h2>Compare Our Plans</h2>
-    <table>
-        <thead>
-        <tr>
-            <th>Feature</th>
-            <th>Personal Plan</th>
-            <th>Organization Plan</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Price</td>
-            <td>$8.99/month</td>
-            <td>$49.99/month</td>
-        </tr>
-        <tr>
-            <td>Ideal for</td>
-            <td>One person</td>
-            <td>Organizations, universities, or schools</td>
-        </tr>
-        <tr>
-            <td>Maximum Bicycles</td>
-            <td>1</td>
-            <td>10 (plan increases if you exceed the limit)</td>
-        </tr>
-        <tr>
-            <td>Availability</td>
-            <td>Maximum 8 hours</td>
-            <td>Available at all times</td>
-        </tr>
-        <tr>
-            <td>Safety</td>
-            <td>Safety in case of any damage</td>
-            <td>Integrated GPS and constant monitoring</td>
-        </tr>
-        </tbody>
-    </table>
-</div>
 
-  <!-- Section Testimonials -->
-  <div class="testimonials" id="testimonials-section">
-      <h2>What Our Users Say</h2>
-      <div class="testimonial-cards">
-          <div class="testimonial-card">
-              <p>"BiciBreeze has made my daily commute so much easier and affordable!" - Maria, University Student</p>
-          </div>
-          <div class="testimonial-card">
-              <p>"I love the flexibility of renting a bike only when I need it. Perfect for my busy schedule!" - John, Professional</p>
-          </div>
-      </div>
-  </div>
 
-  <!-- Section Loyalty Programs -->
-  <div class="loyalty-programs" id="loyalty-programs-section">
-      <h2>Loyalty Programs</h2>
-      <div class="loyalty-cards">
-          <div class="loyalty-card">
-              <h3>Rewards Program</h3>
-              <p>Earn points for every rental and redeem them for discounts or free hours.</p>
-          </div>
-          <div class="loyalty-card">
-              <h3>Events and Guided Tours</h3>
-              <p>Join our guided bike tours and maintenance workshops to learn more and meet fellow riders.</p>
-          </div>
-      </div>
-  </div>
-      <!-- Section About -->
-
-       <!-- <div class="about">
-        <div class="about-text">
-          <h2>Forget About Traffic and Cars</h2>
-          <p> Urban cities have a big problem of congestion due to
-            the large population growth with us forget about that.
-          </p>
-          <ul>
-            <li>Less stress</li>
-            <li> Improved Health </li>
-            <li> Cares for the environment </li>
-            <li> Faster </li>
-          </ul>
+      <!-- Section Contact Us -->
+       <div class="contact-us-title">
+        <h2>Contact us</h2>
+       </div>
+      <div class="contact" id="contact-us-section">
+        <div class="contact-info">
+            <div class="contact-info-header">
+                <h2>Contact Information</h2>
+                <p>Say something to start a live chat!</p>
+            </div>
+            <div class="contact-info-content">
+                <p>+1012 3456 789</p>
+                <p>BiciBreeze@gmail.com</p>
+                <p>Perú</p>
+            </div>
+            <div class="social-icons">
+                <img src="assets/img/twitter-ico.png" alt="Twitter">
+                <img src="assets/img/ig-icon.png" alt="Instagram">
+                <img src="assets/img/discord-ico.png" alt="Discord">
+            </div>
         </div>
-        <div class="about-img">
-          <img src='https://i.postimg.cc/3wZzvJ1V/about.jpg' border='0' alt='about'/>
+        <div class="contact-form">
+            <form>
+                <div class="form-row-up">
+                    <div class="form-group">
+                        <input type="text" id="first-name" name="first-name" placeholder=" " required>
+                        <label for="first-name">First Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="last-name" name="last-name" placeholder=" " required>
+                        <label for="last-name">Last Name</label>
+                    </div>
+                </div>
+                <div class="form-row-down">
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder=" " value="" required>
+                        <label for="phone">Phone Number</label>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected></option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Support</option>
+                        <option value="sales">Sales</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="subject">Select Subject?</label>
+                </div>
+                <div class="form-group full-width">
+                    <textarea id="message" name="message" placeholder="" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <div class="ssubmit-btn-container">
+                <button type="submit" class="submit-btn">Send Message</button>
+              </div>
+            </form>
         </div>
-      </div>  -->
-
-      <div class ="about" id="about-section">
-        <img src='https://i.postimg.cc/PNnfQ5YH/about-2k.png' border='0' alt='about-2k'/>
-      </div>
+    </div>
 
       <!-- Footer -->
   <footer>
