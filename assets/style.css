@@ -147,6 +147,23 @@
     }
   }
 
+.i18 {
+  width: 40px;
+}
+
+.i18 button{
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: white;
+}
+
+.i18 img {
+  width: 100%;
+  height: auto;
+}
+
   /* HOME PAGE */
 
   .home-text {

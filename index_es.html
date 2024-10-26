@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BiciBreeze, la mejor opción de alquiler de bicicletas para universitarios. Alquila tu bici de manera rápida y económica con nuestro servicio exclusivo para estudiantes.">
+    <meta name="keywords" content="alquiler de bicicletas, bicicletas para universitarios, bicis para estudiantes, alquiler de bicis, transporte universitario, BiciBreeze, bicis económicas">
+    <meta name="author" content="BiciBreeze">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="BiciBreeze | Alquiler de Bicicletas para Universitarios">
+    <meta property="og:description" content="Descubre BiciBreeze, la plataforma ideal para alquilar bicicletas, diseñada especialmente para estudiantes universitarios. ¡Ahorra dinero y viaja de manera sostenible!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.bicibreeze.com">
+    <meta property="og:image" content="https://www.bicibreeze.com/images/landing-page.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BiciBreeze | Alquiler de Bicicletas para Universitarios">
+    <meta name="twitter:description" content="Alquila una bicicleta de manera rápida y económica con BiciBreeze, el servicio exclusivo para estudiantes universitarios.">
+    <meta name="twitter:image" content="https://www.bicibreeze.com/images/landing-page.jpg">
+
+    <!-- Title Tag -->
+    <title>BiciBreeze | Alquiler de Bicicletas para Universitarios</title>
+
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <img src="https://i.postimg.cc/3xG9mLc0/logo-bicibreeze.jpg" alt="Logo BiciBreeze" />
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home" id="home">Inicio</a></li>
+            <li><a href="#about" id="about">Acerca de</a></li>
+            <li><a href="#plans-section" id="plans">Planes</a></li>
+            <li><a href="#contact-us" id="contact">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <div class="i18">
+        <button onclick="window.location.href='index.html'"><img src="assets/img/PE.png"></button>
+    </div>
+
+    <a onclick="openNav()" class="menu" href="#"><button>Menú</button></a>
+
+    <div class="overlay" id="mobile-menu">
+        <a onclick="closeNav()" class="close" href="#">&times;</a>
+        <div class="overlay-content">
+            <a href="#home" id="home2">Inicio</a>
+            <a href="#about" id="about2">Acerca de</a>
+            <a href="#plans-section" id="plans2">Planes</a>
+            <a href="#contact-us" id="contact2">Contáctanos</a>
+        </div>
+    </div>
+</header>
+
+<!-- Sección Inicio -->
+<div class="home" id="home-section">
+    <div class="home-text">
+        <h1>Tu Ciudad, Tu Viaje</h1>
+        <p>Muévete Rápidamente Con Nuestro Fácil Alquiler de Bicicletas.</p>
+        <a href="https://bicibreeze-front-end.web.app/" class="btn"><button> Comienza a Alquilar </button></a>
+    </div>
+    <div class="home-img">
+        <img src='https://i.postimg.cc/D0b77kxw/bike.png' border='0' alt='bike'/>
+    </div>
+    <div class="home-text2">
+        <h2>Alquila Ahora</h2>
+        <a href="#" class="btn"><button> Empecemos </button></a>
+    </div>
+</div>
+
+<div class="about" id="about-section">
+    <img src='https://i.postimg.cc/PNnfQ5YH/about-2k.png' border='0' alt='about-2k'/>
+</div>
+
+<!-- Sección Planes -->
+<div class="plans" id="plans-section">
+    <h2>Nuestros Planes</h2>
+    <div class="plan-cards">
+        <div class="plan-card personal-plan">
+            <h3>Personal</h3>
+            <p>$8.99/mes</p>
+            <ul>
+                <li>&#10003; Ideal para una persona</li>
+                <li>&#10003; Solo puedes alquilar una bicicleta</li>
+                <li>&#10003; Máximo 8 horas</li>
+                <li>&#10003; Seguridad en caso de cualquier daño</li>
+            </ul>
+            <button class="btn-blue">Comenzar</button>
+        </div>
+        <div class="plan-card organization-plan">
+            <h3>Organización</h3>
+            <p>$49.99/mes</p>
+            <ul>
+                <li>&#10003; Para organizaciones, universidades o escuelas</li>
+                <li>&#10003; Máximo 10 bicicletas (el plan aumenta si excedes el límite de bicicletas)</li>
+                <li>&#10003; Disponible en todo momento</li>
+                <li>&#10003; GPS integrado y monitoreo constante</li>
+            </ul>
+            <button class="btn-white">Comenzar</button>
+        </div>
+    </div>
+</div>
+
+<!-- Sección Contáctanos -->
+<div class="contact-us-title">
+    <h2>Contáctanos</h2>
+</div>
+<div class="contact" id="contact-us-section">
+    <div class="contact-info">
+        <div class="contact-info-header">
+            <h2>Información de Contacto</h2>
+            <p>¡Di algo para iniciar un chat en vivo!</p>
+        </div>
+        <div class="contact-info-content">
+            <p>+1012 3456 789</p>
+            <p>BiciBreeze@gmail.com</p>
+            <p>Perú</p>
+        </div>
+        <div class="social-icons">
+            <img src="assets/img/twitter-ico.png" alt="Twitter">
+            <img src="assets/img/ig-icon.png" alt="Instagram">
+            <img src="assets/img/discord-ico.png" alt="Discord">
+        </div>
+    </div>
+    <div class="contact-form">
+        <form>
+            <div class="form-row-up">
+                <div class="form-group">
+                    <input type="text" id="first-name" name="first-name" placeholder=" " required>
+                    <label for="first-name">Nombre</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="last-name" name="last-name" placeholder=" " required>
+                    <label for="last-name">Apellido</label>
+                </div>
+            </div>
+            <div class="form-row-down">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">Correo Electrónico</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder=" " value="" required>
+                    <label for="phone">Número de Teléfono</label>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected></option>
+                    <option value="general">Consulta General</option>
+                    <option value="support">Soporte</option>
+                    <option value="sales">Ventas</option>
+                    <option value="other">Otro</option>
+                </select>
+                <label for="subject">Selecciona el Asunto</label>
+            </div>
+            <div class="form-group full-width">
+                <textarea id="message" name="message" placeholder="" required></textarea>
+                <label for="message">Mensaje</label>
+            </div>
+            <div class="submit-btn-container">
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>BiciBreeze</h2>
+                <p>Muévete rápidamente con nuestro fácil alquiler de bicicletas.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Producto</h2>
+                <ul>
+                    <li><a href="">Resumen</a></li>
+                    <li><a href="">Planes</a></li>
+                    <li><a href="">Historias de Clientes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Recursos</h2>
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Guías y Tutoriales</a></li>
+                    <li><a href="">Centro de Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Compañía</h2>
+                <ul>
+                    <li><a href="">Sobre Nosotros</a></li>
+                    <li><a href="">Carreras</a></li>
+                    <li><a href="">Kit de Medios</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Pedalea Hacia la Libertad</h2>
+                <p>Este eslogan destaca cómo alquilar una bicicleta te da la libertad de explorar fácilmente, evitar el tráfico y disfrutar de un viaje ecológico.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/menu.js"></script>
+</body>
+</html>
